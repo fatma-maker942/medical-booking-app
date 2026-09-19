@@ -54,7 +54,7 @@ Installation
 
 Clone the repository:
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/fatma-maker942/medical-booking-app.git
 
 Navigate to the project folder:
 
@@ -101,7 +101,6 @@ Main endpoints:
 
 GET    /doctors
 GET    /doctors/:id
-
 GET    /appointments
 POST   /appointments
 PUT    /appointments/:id
