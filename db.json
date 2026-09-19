@@ -1,0 +1,143 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Ahmed Mahmoud",
+      "specialty": "Cardiologist",
+      "experience": "10 years of experience",
+      "description": "Specializes in heart diseases, blood pressure, and cardiovascular care.",
+      "workingDays": [
+        "Saturday",
+        "Monday",
+        "Wednesday"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Sarah Ali",
+      "specialty": "Pediatrician",
+      "experience": "8 years of experience",
+      "description": "Provides medical care for children and helps with common childhood illnesses.",
+      "workingDays": [
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Omar Khaled",
+      "specialty": "Dentist",
+      "experience": "5 years of experience",
+      "description": "Provides dental examinations, cleaning, fillings, and general dental care.",
+      "workingDays": [
+        "Saturday",
+        "Monday",
+        "Thursday"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/46.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Dr. Laila Hassan",
+      "specialty": "Dermatologist",
+      "experience": "12 years of experience",
+      "description": "Specializes in skin conditions, acne, allergies, and general dermatological care.",
+      "workingDays": [
+        "Sunday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/68.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Dr. Youssef Ibrahim",
+      "specialty": "Neurologist",
+      "experience": "15 years of experience",
+      "description": "Specializes in neurological conditions, headaches, migraines, and nervous system disorders.",
+      "workingDays": [
+        "Saturday",
+        "Monday",
+        "Wednesday"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Dr. Mona Zaki",
+      "specialty": "Ophthalmologist",
+      "experience": "7 years of experience",
+      "description": "Provides eye examinations and treatment for common eye conditions and vision problems.",
+      "workingDays": [
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/33.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Dr. Tarek Mostafa",
+      "specialty": "Orthopedist",
+      "experience": "20 years of experience",
+      "description": "Specializes in bone, joint, muscle, and orthopedic conditions.",
+      "workingDays": [
+        "Saturday",
+        "Monday",
+        "Thursday"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/62.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Dr. Hoda Samir",
+      "specialty": "Psychiatrist",
+      "experience": "9 years of experience",
+      "description": "Provides mental health consultations and support for common psychological conditions.",
+      "workingDays": [
+        "Sunday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/79.jpg"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "patient": "Ali Hassan",
+      "doctor": "Dr. Ahmed Mahmoud",
+      "date": "2026-09-20",
+      "time": "10:00 AM",
+      "status": "Confirmed"
+    },
+    {
+      "id": "2",
+      "patient": "Nour El-Din",
+      "doctor": "Dr. Laila Hassan",
+      "date": "2026-09-21",
+      "time": "12:30 PM",
+      "status": "Pending"
+    },
+    {
+      "id": "3",
+      "patient": "Salma Yasser",
+      "doctor": "Dr. Omar Khaled",
+      "date": "2026-09-30",
+      "time": "21:00",
+      "status": "Confirmed"
+    },
+    {
+      "id": "4",
+      "patient": "Mahmoud Tarek",
+      "doctor": "Dr. Youssef Ibrahim",
+      "date": "2026-09-25",
+      "time": "06:00 PM",
+      "status": "Cancelled"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
